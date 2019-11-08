@@ -3,6 +3,8 @@
 
 It shows representation of Google! web site content back in `1998`. Have a fun!
 
+![Screenshot](img/demo.png)
+
 ## Usage example
 
 Open `index.html` file in your browser.
