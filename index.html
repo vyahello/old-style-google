@@ -2,21 +2,25 @@
 <html lang="en-us">
     <head>
         <title>Google!</title>
-        <link rel="stylesheet" href="extras/site.css">
+        <link rel="stylesheet" href="styles/site.css">
+        <link rel="stylesheet" href="styles/table.css">
+        <link rel="stylesheet" href="styles/form.css">
     </head>
 
     <body>
-        <div style="text-align: center;">
+        <div>
             <img src="img/icon.jpg">
         </div>
 
         <div>
-            <table style="width: 100%;">
+            <table>
                 <tr> <!-- row -->
-                    <td style="background: #EEEEEE" colspan="3"> <!-- cell, colspan="3" merge 3 cells -->
-                        <div style="text-align: center;">Search the web using Google!
-                            <form style="text-align: center;">
-                                <input type="text" name="search" style="width: 10%">
+                    <td colspan="3"> <!-- cell, colspan="3" merge 3 cells -->
+                        <div>Search the web using Google!
+                            <form>
+                                <label>
+                                    <input type="text" name="search">
+                                </label>
                                 <br>
                                 <button type="submit">Google Search</button>
                                 <button type="submit">I'm feeling lucky</button>
@@ -26,22 +30,24 @@
                 </tr>
 
 	            <tr> <!-- row -->
-		            <td style="background: #34eec5"> <!-- cell -->
-                        <div style="text-align: center;">
+		            <td> <!-- cell -->
+                        <div>
                         Special Searches<br>
                         <a href="#">Stanford Search</a><br>
                         <a href="#">Linux Search</a><br>
                         </div>
                     </td>
-                    <td style="text-align: center; background: #34eec5">
+                    <td>
                         <a href="#">Help!</a><br>
                         <a href="#">About Google!</a><br>
                         <a href="#">Company info</a><br>
                         <a href="#">Google logos</a><br>
 		            </td>
-		            <td style="background: #34eec5">
-                        <div style="text-align: center;">Get Google!<br>updates monthly:<br>
-                            <input style="width: 25%" type="email" name="email" placeholder="your e-mail">
+		            <td>
+                        <div>Get Google!<br>updates monthly:<br>
+                            <label>
+                                <input type="email" name="email" placeholder="your e-mail">
+                            </label>
                             <br>
                             <button type="submit">Subscribe</button>
                             <a href="#">Archive</a>
@@ -51,6 +57,6 @@
             </table>
         </div>
         <br>
-        <div style="text-align: center;">Copyright @1998 Google Inc.</div>
+        <div>Copyright @1998 Google Inc.</div>
     </body>
 </html>
