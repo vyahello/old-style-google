@@ -2,26 +2,55 @@
 <html lang="en-us">
     <head>
         <title>Google!</title>
-    <link rel="stylesheet" href="extras/site.css">
+        <link rel="stylesheet" href="extras/site.css">
     </head>
 
     <body>
-        <div>
+        <div style="text-align: center;">
             <img src="img/icon.jpg">
         </div>
 
-        <div>Search the web using Google!
-            <form>
-                <input type="text" name="search">
-                <button type="submit">Google Search</button>
-                <button type="submit">I'm feeling lucky</button>
-            </form>
-        </div>
-
         <div>
-            <!-- here is table -->
-        </div>
+            <table style="width: 100%;">
+                <tr> <!-- row -->
+                    <td style="background: #EEEEEE" colspan="3"> <!-- cell, colspan="3" merge 3 cells -->
+                        <div style="text-align: center;">Search the web using Google!
+                            <form style="text-align: center;">
+                                <input type="text" name="search" style="width: 10%">
+                                <br>
+                                <button type="submit">Google Search</button>
+                                <button type="submit">I'm feeling lucky</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
 
-        <div>Copyright @1998 Google Inc.</div>
+	            <tr> <!-- row -->
+		            <td style="background: #34eec5"> <!-- cell -->
+                        <div style="text-align: center;">
+                        Special Searches<br>
+                        <a href="#">Stanford Search</a><br>
+                        <a href="#">Linux Search</a><br>
+                        </div>
+                    </td>
+                    <td style="text-align: center; background: #34eec5">
+                        <a href="#">Help!</a><br>
+                        <a href="#">About Google!</a><br>
+                        <a href="#">Company info</a><br>
+                        <a href="#">Google logos</a><br>
+		            </td>
+		            <td style="background: #34eec5">
+                        <div style="text-align: center;">Get Google!<br>updates monthly:<br>
+                            <input style="width: 25%" type="email" name="email" placeholder="your e-mail">
+                            <br>
+                            <button type="submit">Subscribe</button>
+                            <a href="#">Archive</a>
+                        </div>
+		            </td>
+	            </tr>
+            </table>
+        </div>
+        <br>
+        <div style="text-align: center;">Copyright @1998 Google Inc.</div>
     </body>
 </html>
