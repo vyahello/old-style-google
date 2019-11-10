@@ -3,16 +3,19 @@
 
 It shows representation of Google! web site content back in `1998`. Have a fun!
 
-![Screenshot](img/demo.png)
-
 ## Usage example
-> Home page
+**Home page**
 
 Open `index.html` file in your browser.
 
-> Signup page
+![Screenshot](img/index.png)
+
+
+**Signup page**
 
 Open `signup.html` file in your browser or click `Sign Up` button on home page to redirect.
+
+![Screenshot](img/signup.png)
 
 ## Meta
 
