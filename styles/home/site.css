@@ -1,0 +1,34 @@
+div {  /* all divs on a page */
+    text-align: center; /* align text o center */
+}
+
+
+form { /* all forms on a page */
+    text-align: center;  /* align text o center */
+    margin-bottom: 10px;  /* bottom is 10 pixels */
+}
+
+
+table { /* all tables on a page */
+    width: 100%; /* table width is 100% */
+}
+
+
+input { /* all input on a page */
+    width: 15%;  /* width of input */
+    padding: .175rem .125rem; /* size of input */
+    font-size: 0.8rem; /* font of input text */
+    line-height: 1; /* line height */
+    border: 1px solid #6c757d; /* border of input 1 pixel, color is black */
+}
+
+
+button {
+    display: inline-block;  /* is a block */
+    color: #000000;  /* color of button text */
+    background-color: #c7c7c7;  /* color of button itself */
+    text-align: center;  /* align text to center */
+    padding: .375rem .75rem;  /* size of a button */
+    font-size: 0.8rem;  /* size of font */
+    border-radius: .25rem;  /* radius of border */
+}

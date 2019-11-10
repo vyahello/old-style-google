@@ -1,0 +1,19 @@
+table tr td:first-of-type {  /* first cell */
+    background: #EEEEEE;
+}
+
+
+table tr:nth-child(2) td { /* second row */
+    text-align: center;
+    background: #34eec5;
+}
+
+
+table tr:nth-child(2) input { /* second row input */
+    width: 25%;
+}
+
+
+table tr:nth-child(2) input::placeholder {/* all input::placeholder (text in input) on a page */
+    color: #000000; /* text of placeholder */
+}
