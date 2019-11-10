@@ -15,7 +15,7 @@ table { /* all tables on a page */
 
 
 input { /* all input on a page */
-    width: 15%;  /* width of input */
+    width: 20%;  /* width of input */
     padding: .175rem .125rem; /* size of input */
     font-size: 0.8rem; /* font of input text */
     line-height: 1; /* line height */
@@ -28,7 +28,16 @@ button {
     color: #000000;  /* color of button text */
     background-color: #c7c7c7;  /* color of button itself */
     text-align: center;  /* align text to center */
-    padding: .375rem .75rem;  /* size of a button */
+    padding: .475rem .95rem;  /* size of a button */
     font-size: 0.8rem;  /* size of font */
     border-radius: .25rem;  /* radius of border */
+}
+
+
+.signup {
+    padding: 8px 20px; /* size of a button */
+    text-align:center; /* align text o center */
+    position: absolute;  /* absolute path */
+    top: 10px; /* top corner */
+    right: 10px; /* right corner  */
 }

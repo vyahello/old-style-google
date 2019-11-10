@@ -1,13 +1,18 @@
 # Google!
-> A short revision of brand old Google! home web page.
+> A short revision of brand old Google! web app.
 
 It shows representation of Google! web site content back in `1998`. Have a fun!
 
 ![Screenshot](img/demo.png)
 
 ## Usage example
+> Home page
 
 Open `index.html` file in your browser.
+
+> Signup page
+
+Open `signup.html` file in your browser or click `Sign Up` button on home page to redirect.
 
 ## Meta
 
