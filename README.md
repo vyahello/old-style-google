@@ -3,15 +3,20 @@
 
 It shows representation of Google! web site content back in `1998`. Have a fun!
 
-## Usage example
-**Home page**
+## Usage
+Clone the repository via:
+```bash
+git clone git@github.com:vyahello/old-style-google.git
+```
+
+### Home page
 
 Open `index.html` file in your browser.
 
 ![Screenshot](img/index.png)
 
 
-**Signup page**
+### Signup page
 
 Open `signup.html` file in your browser or click `Sign Up` button on home page to redirect.
 
