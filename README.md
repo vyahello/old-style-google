@@ -7,6 +7,7 @@ It shows representation of Google! web site content back in `1998`. Have a fun!
 Clone the repository via:
 ```bash
 git clone git@github.com:vyahello/old-style-google.git
+cd old-style-google
 ```
 
 ### Home page
@@ -24,9 +25,7 @@ Open `signup.html` file in your browser or click `Sign Up` button on home page t
 
 ## Meta
 
-Volodymyr Yahello – vyahello@gmail.com
-
-[https://github.com/vyahello](https://github.com/vyahello)
+Author - Volodymyr Yahello (vyahello@gmail.com)
 
 ## Contributing
 
