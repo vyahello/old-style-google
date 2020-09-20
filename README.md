@@ -25,7 +25,10 @@ Open `signup.html` file in your browser or click `Sign Up` button on home page t
 
 ## Meta
 
-Author - Volodymyr Yahello (vyahello@gmail.com)
+Author - Volodymyr Yahello.
+
+- vyahello@gmail.com
+- https://twitter.com/vyahello
 
 ## Contributing
 
